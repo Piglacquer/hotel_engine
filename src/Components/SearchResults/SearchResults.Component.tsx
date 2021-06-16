@@ -52,7 +52,7 @@ const SearchResults:React.FC<Props> = ({ results }) => {
 		}
 		setRepositories(updatedRepositories);
 
-	}, [selectedFilter, selectedSort]);
+	}, [selectedFilter, selectedSort, results.items]);
 
 	return (
 		<div className='results-container'>
