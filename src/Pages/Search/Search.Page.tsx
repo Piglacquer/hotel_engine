@@ -13,9 +13,7 @@ const Search:React.FC = () => {
 	const searchGithub = (queryString:string):void => {
 		fetch(`https://api.github.com/search/repositories?q=${queryString}`)
 			.then(resp => resp.json())
-			.then(resp => {
-				console.warn('yeet resp', resp);
-				setResults(resp)});
+			.then(resp => setResults(resp));
 	};
 
 	return (

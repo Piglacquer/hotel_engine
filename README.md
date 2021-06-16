@@ -5,4 +5,4 @@
 * then you need to go into the project with `cd [insert folder name here]`
 * once you're in, hit that `yarn` and it should install all dependencies for the project
 * that last step might take a moment, as soon as it finishes, you're ready to run the app
-* in the same directory, go ahead and hit that `npm start`, that will start the dev server and open a tab in your browser
+* in the same directory, go ahead and hit that `npm start`, this will start the dev server and open a tab in your browser

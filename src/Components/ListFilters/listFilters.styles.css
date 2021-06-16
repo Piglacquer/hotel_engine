@@ -1,0 +1,4 @@
+.container {
+	flex-flow: row wrap;
+	margin-bottom: 15px;
+}

@@ -1,0 +1,41 @@
+.row-container {
+	width: 90vw;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+
+.results-numbers {
+	margin: 15px 0;
+	font-size: 1.5rem;
+}
+
+.sort-filter-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 15px;
+}
+
+.repo-name {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.stars-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.results-container {
+	width: 95vw;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
